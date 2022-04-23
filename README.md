@@ -3,11 +3,11 @@
 </p>
 
 <center>
-<img src="https://data.terabox.com/thumbnail/f638a273cb87d85010e2ca9a0344ef54?fid=4401564312983-250528-961078221956920&time=1650726000&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-sxHn2NE4kz1%2BTSgxRD80RlzuVAU%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=314074294901246036&dp-callid=0&size=c360_u270&quality=100&vuk=-&ft=video" style="display: block;margin: auto;height: 100px;widht; 100px alt="JannStore logo">
+<img src="https://data.terabox.com/thumbnail/f638a273cb87d85010e2ca9a0344ef54?fid=4401564312983-250528-961078221956920&time=1650726000&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-sxHn2NE4kz1%2BTSgxRD80RlzuVAU%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=314074294901246036&dp-callid=0&size=c360_u270&quality=100&vuk=-&ft=video" style="display: block;margin: auto;height: 100px;widht; 100px tittle="My logo" alt="MyLogo">
 </center>
 
 <p align="center">
-<img src="https://readme-typing-svg.herokuapp.com?color=00ff00&lines=I'm+not+a+Programmer;I'm+Web+Development">
+<img src="https://readme-typing-svg.herokuapp.com?color=00ff00&center=true&lines=👨‍💻+I'm+not+a+Programmer+👨‍💻;I'm+Web+Development">
 </p>
 
 ```rb
@@ -20,7 +20,7 @@
 
 ___
 
-<p>Connect with me </p>
+<p>Connect with me 🍻</p>
   <a href="https://facebook.com/adminjannstore" target="_blank">
     <img src="https://img.shields.io/badge/facebook-%23E4405F.svg?&style=for-the-badge&logo=facebook&logoColor=white&color=071A2C" alt="Facebook"/>
   </a>
@@ -29,6 +29,9 @@ ___
   </a>
   <a href="https://instagram.com/strlcaa" target="_blank">
     <img src="https://img.shields.io/badge/instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white&color=071A2C" alt="Instagram"/>
+  </a>
+  <a href="https://twitter.com/JannStore" target="_blank">
+    <img src="https://img.shields.io/badge/twitter-%23E4405F.svg?&style=for-the-badge&logo=twitter&logoColor=white&color=071A2C" alt="Twitter"/>
   </a>
   <a href="https://youtube.com/BOTINDO" target="_blank">
     <img src="https://img.shields.io/badge/youtube-%2312100E.svg?&style=for-the-badge&logo=youtube&logoColor=white&color=071A2C" alt="YouTube"/>
@@ -39,8 +42,8 @@ ___
 
 ___
 
-<p>Github Statistics 🍻</p>
-<img src="https://komarev.com/ghpvc/?username=Aprilia3&label=Total%20Profile%20Visitor&color=071A2C&style=for-the-badge" alt="Aprilia3" />
+<p>Github Statistics</p>
+<img src="https://komarev.com/ghpvc/?username=Jann-X&label=Total%20Profile%20Visitor&color=071A2C&style=for-the-badge" alt="Aprilia3" />
 
 
 <!---
