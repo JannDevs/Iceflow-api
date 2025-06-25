@@ -1,6 +1,6 @@
 {
-  "name": "iceflow",
-  "version": "1.0.0",
+  "name": "Iceflow",
+  "version": "^1.2.3",
   "description": "A simple and customizable API documentation interface built with Express.js.",
   "main": "index.js",
   "type": "commonjs",
@@ -27,7 +27,7 @@
     "needle": "^3.3.1",
     "node-fetch": "^2.6.1",
     "octoparse": "^0.5.5",
-    "playwright: "^1.53.1",
+    "playwright": "^1.53.1",
     "puppeteer": "^24.10.2",
     "scrapy": "^0.0.1",
     "selenium": "^2.20.0",
