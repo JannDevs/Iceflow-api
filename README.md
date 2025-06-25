@@ -1,75 +1,145 @@
-<center>
-  <h3>JannDevs</h3>
-</center>
+# Falcon API UI
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?color=000000&center=true&lines=Hi,+Welcoms+to+this+package">
-</p>
+A modern, clean, and user-friendly interface for browsing and testing Falcon API endpoints.
 
-<center>
+![Falcon API UI Screenshot](image.png)
 
-[![MyProfieGithub](https://github.com/JannDevs.png?size=100)](https://github.com/JannDevs)
-</center>
+## Features
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?color=00ff00&center=true&lines=It's+me+JannDevs;I'm+still+learning+to+be+a+Master">
-</p>
+- 🌓 **Light/Dark Mode**: Toggle between light and dark themes with automatic preference saving
+- 🔍 **Smart Search**: Quickly find endpoints by name or description
+- 📱 **Responsive Design**: Works perfectly on desktop, tablet, and mobile devices
+- 🔄 **API Status Indicators**: Visual indicators showing the status of each endpoint (ready, error, update)
+- 📋 **Copy to Clipboard**: One-click copying of API endpoints and responses
+- 📊 **JSON Highlighting**: Beautifully formatted JSON responses with syntax highlighting
+- 📝 **Detailed Parameter Forms**: Clearly labeled input fields with tooltips for parameter descriptions
 
-```rb
-- 👋 Hi, I’m @JannDevs-!
-- 👀 I'm 17 y.o
-- 👨‍💻 I not programmer
-- 💞️ I have a crush
-- I'm currently focusing on WhatsApp Botting
+## Getting Started
+
+### Prerequisites
+
+- Web server (Apache, Nginx, etc.)
+- Modern web browser
+
+### Installation
+
+1. Clone this repository to your web server:
+   ```bash
+   git clone https://github.com/FlowFalcon/falcon-api-ui.git
+   ```
+
+2. Configure your API endpoints in `settings.json` (see Configuration section below)
+
+3. Access the UI through your web server (e.g., `https://your-domain.com/falcon-api-ui/`)
+
+## Configuration
+
+All API endpoints and categories are configured in the `settings.json` file. The structure is as follows:
+
+```json
+{
+  "name": "Falcon-Api",
+  "version": "v1.2",
+  "description": "Simple and easy to use API.",
+  "bannerImage": "/src/banner.jpg",
+  "header": {
+    "status": "Online!"
+  },
+  "apiSettings": {
+    "creator": "FlowFalcon", 
+    "apikey": ["falcon-api"]
+  },
+  "categories": [
+    {
+      "name": "Category Name",
+      "image": "/api/placeholder/800/200",
+      "items": [
+        {
+          "name": "Endpoint Name",
+          "desc": "Endpoint description",
+          "path": "/api/endpoint?param=",
+          "status": "ready", // Can be "ready", "error", or "update"
+          "params": {
+            "param": "Description of the parameter"
+          }
+        }
+      ]
+    }
+  ]
+}
 ```
-----------
 
-This Module for The APIs Library or WhatsApp Bot
+### Adding a New Endpoint
 
-## Connect with me🍻
+To add a new endpoint:
 
-  <a href="https://facebook.com/adminjannstore" target="_blank">
-    <img src="https://img.shields.io/badge/facebook-%23E4405F.svg?&style=for-the-badge&logo=facebook&logoColor=white&color=071A2C" alt="Facebook"/>
-  </a>
-  <a href="https://tiktok.com/strlcaa" target="_blank">
-    <img src="https://img.shields.io/badge/tikok-%23E4405F.svg?&style=for-the-badge&logo=tiktok&logoColor=white&color=071A2C" alt="Tiktok"/>
-  </a>
-  <a href="https://instagram.com/strlcaa" target="_blank">
-    <img src="https://img.shields.io/badge/instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white&color=071A2C" alt="Instagram"/>
-  </a>
-  <a href="https://twitter.com/JannStore" target="_blank">
-    <img src="https://img.shields.io/badge/twitter-%23E4405F.svg?&style=for-the-badge&logo=twitter&logoColor=white&color=071A2C" alt="Twitter"/>
-  </a>
-  <a href="https://youtube.com/BOTINDO" target="_blank">
-    <img src="https://img.shields.io/badge/youtube-%2312100E.svg?&style=for-the-badge&logo=youtube&logoColor=white&color=071A2C" alt="YouTube"/>
-  </a>
-<a href="https://wa.me/62895384429337?text=haii" target="_blank">
-    <img src="https://img.shields.io/badge/whatsapp-%2312100E.svg?&style=for-the-badge&logo=whatsapp&logoColor=white&color=071A2C" alt="WhatsApp"/>
-  </a>
+1. Find the appropriate category in the `categories` array or create a new one
+2. Add a new object to the `items` array with the following properties:
+   - `name`: Display name of the endpoint
+   - `desc`: Brief description of what the endpoint does
+   - `path`: The API path, including any query parameters
+   - `status`: Status of the endpoint (`"ready"`, `"error"`, or `"update"`)
+   - `params`: Object containing parameter names as keys and descriptions as values
 
-___
-[![MY SHOP GROUP](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/CarQQglJ5SV8nNiAusNMHu)
+Example:
+```json
+{
+  "name": "User Info",
+  "desc": "Get user information by ID",
+  "path": "/api/user?id=",
+  "status": "ready",
+  "params": {
+    "id": "User ID number"
+  }
+}
+```
 
-## My Github Stats
-<img src="https://komarev.com/ghpvc/?username=Jann-X&label=Total%20Profile%20Visitor&color=071A2C&style=for-the-badge" alt="Visitor"/>
+## Customization
 
-___
-<a href="https://visitor-badge.glitch.me/badge?page_id=Jann-X/Jann-X"><img title="Visitor" src="https://visitor-badge.glitch.me/badge?page_id=Jann-X/Jann-X"></a>
-<a href="https://github.com/Jann-X/Jann-X/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Jann-X/Jann-X?label=Forks&color=blue&style=flat-square"></a>
-<a href="https://github.com/Jann-X/Jann-X/watchers"><img title="Watchers" src="https://img.shields.io/github/watchers/Jann-X/Jann-X?label=Watchers&color=green&style=flat-square"></a>
-<a href="https://github.com/Jann-X/Jann-X/stargazers"><img title="Stars" src="https://img.shields.io/github/stars/Jann-X/Jann-X?label=Stars&color=yellow&style=flat-square"></a>
-<a href="https://github.com/Jann-X/Jann-X/graphs/contributors"><img title="Contributors" src="https://img.shields.io/github/contributors/Jann-X/Jann-X?label=Contributors&color=blue&style=flat-square"></a>
-<a href="https://github.com/Jann-X/Jann-X/issues"><img title="Issues" src="https://img.shields.io/github/issues/Jann-X/Jann-X?label=Issues&color=success&style=flat-square"></a>
-<a href="https://github.com/Fokusdotid/bersama/issues?q=is%3Aissue+is%3Aclosed"><img title="Issues" src="https://img.shields.io/github/issues-closed/Fokusdotid/bersama?label=Issues&color=red&style=flat-square"></a>
-<a href="https://github.com/Fokusdotid/bersama/pulls"><img title="Pull Request" src="https://img.shields.io/github/issues-pr/Fokusdotid/bersama?label=PullRequest&color=success&style=flat-square"></a>
-<a href="https://github.com/Fokusdotid/bersama/pulls?q=is%3Apr+is%3Aclosed"><img title="Pull Request" src="https://img.shields.io/github/issues-pr-closed/Fokusdotid/bersama?label=PullRequest&color=red&style=flat-square"></a>
+### Theme Colors
 
-## Deploy
-<p>Deploy Jann-X to Heroku</p>
+You can customize the colors by modifying the CSS variables in the `styles.css` file:
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Jann-X/Jann-X)
+```css
+:root {
+  --primary-color: #4361ee;
+  --secondary-color: #3a86ff;
+  --accent-color: #4cc9f0;
+  /* Additional color variables... */
+}
+```
 
-<!---
-Jann-X/Jann-X is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+### Banner Image
+
+Change the banner image by updating the `bannerImage` property in `settings.json`:
+
+```json
+{
+  "bannerImage": "/path/to/your/banner.jpg"
+}
+```
+
+## Browser Support
+
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgements
+
+- [Font Awesome](https://fontawesome.com/) for icons
+- [Bootstrap](https://getbootstrap.com/) for layout components
+- [Inter Font](https://fonts.google.com/specimen/Inter) for typography
+
+---
+
+Created with ❤️ by [FlowFalcon](https://github.com/FlowFalcon)
