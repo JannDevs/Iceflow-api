@@ -1,0 +1,64 @@
+{
+  "name": "Iceflow APIs",
+  "version": "v1.1.1",
+  "description": "Simple and easy to use API.",
+  "bannerImage": "/img/banner.png",
+  "header": {
+    "status": "Free!"
+  },
+  "apiSettings": {
+    "creator": "Iceflow", 
+    "apikey": ["ice-api"]
+  },
+  "categories": [
+    {
+      "name": "AI (Artificial Intelligence)",
+      "items": [
+        {
+          "name": "LuminAI",
+          "desc": "Talk with luminai",
+          "path": "/ai/luminai?text=",
+          "status": "active",
+          "params": {
+            "text": "Text for luminai to respond to"
+          }
+        },
+       {
+          "name": "HydroMind",
+          "desc": "See the list of supported AI models here: https://mind.hydrooo.web.id",
+          "path": "/ai/hydromind?text=&model=",
+          "status": "active",
+          "params": {
+            "text": "Teks atau perintah untuk chat AI",
+            "model":"1See the list of supported AI models here: https://mind.hydrooo.web.id"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Random",
+      "items": [
+        {
+          "name": "Blue Archive",
+          "desc": "Blue Archive Random Images",
+          "path": "/random/ba",
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "name": "Search Tools",
+      "items": [
+        {
+          "name": "YouTube",
+          "desc": "Video search",
+          "path": "/search/youtube?q=",
+          "status": "active",
+          "params": {
+            "q": "Search query"
+          }
+        }
+      ]
+    }               
+  ]
+}
