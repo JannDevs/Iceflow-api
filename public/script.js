@@ -118,7 +118,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     // --- Fungsi Notifikasi ---
     const loadNotifications = async () => {
         try {
-            const response = await fetch('../src/notifications.json');
+            const response = await fetch('/src/notifications.json');
             if (!response.ok) throw new Error(`Gagal memuat notifikasi: ${response.status}`);
             allNotifications = await response.json();
             updateNotificationBadge();
@@ -373,12 +373,12 @@ document.addEventListener('DOMContentLoaded', async () => {
                 DOM.dynamicImage.style.display = ''; // Pastikan gambar ditampilkan jika ada path
             } else {
                 // Jika tidak ada bannerImage di settings, gunakan fallback default dan tampilkan
-                DOM.dynamicImage.src = '../src/img/banner.png';
+                DOM.dynamicImage.src = '/src/img/banner.png';
                 DOM.dynamicImage.alt = "API Banner Default";
                 DOM.dynamicImage.style.display = '';
             }
             DOM.dynamicImage.onerror = () => {
-                DOM.dynamicImage.src = '../src/img/banner.png'; // Fallback jika error loading
+                DOM.dynamicImage.src = '/src/img/banner.png'; // Fallback jika error loading
                 DOM.dynamicImage.alt = "API Banner Fallback";
                 DOM.dynamicImage.style.display = ''; // Pastikan tetap tampil
                 showToast('Gagal memuat gambar banner, menggunakan gambar default.', 'warning');
