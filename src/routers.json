@@ -2,7 +2,7 @@
   "name": "Iceflow APIs",
   "version": "v1.1.1",
   "description": "Simple and easy to use API.",
-  "bannerImage": "/img/banner.png",
+  "bannerImage": "/src/img/banner.png",
   "header": {
     "status": "Free!"
   },
