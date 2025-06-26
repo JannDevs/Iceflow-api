@@ -37,7 +37,7 @@ app.use((req, res, next) => {
 
 // Api Route
 let totalRoutes = 0;
-const apiFolder = path.join(__dirname, './src/api/category');
+const apiFolder = path.join(__dirname, './src/api/categories');
 fs.readdirSync(apiFolder).forEach((subfolder) => {
     const subfolderPath = path.join(apiFolder, subfolder);
     if (fs.statSync(subfolderPath).isDirectory()) {
